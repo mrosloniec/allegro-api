@@ -1,0 +1,263 @@
+<style>
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+	.nuta_template {
+		width: 980px;
+		background: #ffd9e6;
+	}
+
+	.nuta_header {
+		text-align: center;
+		width: 100%;
+		float: none;
+		height: auto;
+		margin: 0 0 10px;
+	}
+
+	.nutaLinks {
+		height: 35px;
+		text-align: center;
+	}
+
+	.nutaLinks div.menuItem {
+		width: 30%;
+		padding: 20px 0 5px 20px;
+		float: left;
+	}
+
+	.nuta_infoboxes {
+		margin: 0;
+		width: 215px;
+		float: left
+	}
+
+	.nuta_infobox {
+		margin-top: 10px;
+		margin-bottom: 20px
+	}
+
+	.nuta_infobox_top {
+		height: 24px;
+		width: 150px;
+	}
+
+	.nuta_infobox_body {
+		background: #d2d2d2;
+		padding: 5px 5px 0 5px;
+		width: 140px;
+		color: #000;
+		font-size: 14px;
+	}
+
+	.nuta_infobox_bottom {
+		background: url("http://s28.postimg.org/72qih0b7d/box_left_bottom.png") no-repeat transparent;
+		height: 13px;
+		width: 150px;
+	}
+
+	.regulamin .nuta_infobox_top {
+		background: url("http://s28.postimg.org/gm07agypl/regulamin_left.png") no-repeat transparent;
+	}
+
+	.koszty_przesylki .nuta_infobox_top {
+		background: url("http://s21.postimg.org/i0kgtetn7/koszt_przesylki_left.png") no-repeat transparent;
+	}
+
+	.zwroty .nuta_infobox_top {
+		background: url("http://s21.postimg.org/ei8gx0sr7/zwroty_left.png") no-repeat transparent;
+	}
+
+	.kontakt .nuta_infobox_top {
+		background: url("http://s11.postimg.org/ukg0cr1kf/kontakt_left.png") no-repeat transparent;
+	}
+
+	.nuta_content {
+		width: 720px;
+		text-align: left;
+		float: left;
+		font-size: 14px;
+		padding: 10px;
+	}
+
+	.nuta_content_top {
+		height: 10px;
+		width: 720px;
+		background: url("http://s29.postimg.org/7vmkvsgs7/content_top.png") no-repeat transparent;
+	}
+
+	.nuta_content_body {
+		min-height: 500px;
+		padding: 10px;
+		background: #d2d2d2;
+	}
+
+	.nuta_content_bottom {
+		height: 10px;
+		width: 720px;
+		background: url("http://s16.postimg.org/64cs048ud/content_bottom.png") no-repeat transparent;
+	}
+
+	img{border: none;}
+	.aobrazek2 {width: 9px;}
+	.aobrazek3 { height: 9px; }
+	.aobrazek4 { height: 9px; width: 9px; }
+	#tabpanel {padding: 0;}
+	#tabpanel a{background-color: transparent;display: block;background-repeat: no-repeat;text-decoration: none; color: #000000; font-family:Arial; font-size:12px;}
+	#tabpanel a:hover {text-decoration: underline;background-color: transparent;background-position: 0 0;}
+	#tabpanel .astopka1 a { display:inline; }
+	#tabpanel td {border:0; border-spacing: 0;}
+	#alinkfoto a {font-size: 9px;margin:0;border:0;color: #999999;font-family: Arial;text-decoration: underline;}
+	#alinkfoto a:hover{margin:0;border:0;text-decoration: underline; }
+	.astopka1 { margin: 0; padding-left: 4px;font-family:Arial; }
+	.astopka1 a { margin-right: 10px; text-decoration:underline; }
+	.astopka2 { font-size: 12px;margin: 0; padding-right: 0;font-family:Arial;}
+	.astopka2 img { padding-left: 5px;}
+	#tabpanel .astopka2 a { text-decoration: underline; display: inline; margin-right: 2px; vertical-align: -3px; }
+	#tabpanel .fotoin2157241 {background-image: url(http://llog.pl/panele5/215724_h1.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin2157242 {background-image: url(http://llog.pl/panele5/215724_h2.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin2157243 {background-image: url(http://llog.pl/panele5/215724_h3.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin2157244 {background-image: url(http://llog.pl/panele5/215724_h4.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin2157245 {background-image: url(http://llog.pl/panele5/215724_h5.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin2157246 {background-image: url(http://llog.pl/panele5/215724_h6.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin2157247 {background-image: url(http://llog.pl/panele5/215724_h7.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin2157248 {background-image: url(http://llog.pl/panele5/215724_h8.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin2157249 {background-image: url(http://llog.pl/panele5/215724_h9.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin21572410 {background-image: url(http://llog.pl/panele5/215724_h10.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin21572411 {background-image: url(http://llog.pl/panele5/215724_h11.png); background-position: 0 -382px;; z-index:1}#tabpanel .fotoin21572412 {background-image: url(http://llog.pl/panele5/215724_h12.png); background-position: 0 -382px;; z-index:1}
+</style>
+<div>
+	<center>
+		<div class="nuta_template">
+			<div class="nutaLinks">
+				<div class="menuItem"><a href="http://allegro.pl/my_page.php?uid=36804916" style="float: left;"> <img
+						src="http://s27.postimg.org/ltt1wjcz3/o_mnie.png"/> </a></div>
+				<div class="menuItem"><a href="http://allegro.pl/my_page.php?uid=36804916"> <img
+						src="http://s27.postimg.org/8n3lx0h9r/regulamin.png"/> </a></div>
+				<div class="menuItem"><a href="http://allegro.pl/listing/user.php?us_id=36804916" style="float: right;">
+					<img src="http://s27.postimg.org/6wkkvizqn/inne_aukcje.png"/> </a></div>
+				<div style="clear: both;"></div>
+			</div>
+			<div class="nuta_header"><img src="http://s2.postimg.org/o3cn4jamx/wieszak.jpg"/></div>
+			<div class="nuta_infoboxes">
+
+
+				<div class="nuta_infobox kontakt">
+					<div class="nuta_infobox_top"></div>
+					<div class="nuta_infobox_body">
+						<a href="https://www.facebook.com/pages/PanWieszak/654875277914594" target="_blank">
+							<img src="http://s21.postimg.org/p7hu8iacj/facebook.png"/>
+						</a>
+					</div>
+					<div class="nuta_infobox_body">
+						<a href="mailto:panwieszak@gmail.com">panwieszak@gmail.com</a>
+					</div>
+					<div class="nuta_infobox_bottom"></div>
+				</div>
+
+				<div class="nuta_infobox koszty_przesylki">
+					<div class="nuta_infobox_top"></div>
+					<div class="nuta_infobox_body"><span style="font-size: 10pt;">List polecony priorytetowy:</span>
+					</div>
+					<div class="nuta_infobox_body"><span style="font-size: 10pt;">10,99 zł</span></div>
+					<div class="nuta_infobox_body"><span style="font-size: 10pt;"><br/></span></div>
+					<div class="nuta_infobox_body"><span style="font-size: 10pt;">List polecony ekonomiczny:</span>
+					</div>
+					<div class="nuta_infobox_body"><span style="font-size: 10pt;">9,99 zł</span></div>
+					<div class="nuta_infobox_body"></div>
+					<div class="nuta_infobox_body"><span style="font-size: 10pt;">Kupując na naszych aukcjach za przesyłkę płacisz tylko raz!</span>
+					</div>
+					<div class="nuta_infobox_bottom"></div>
+				</div>
+				<div class="nuta_infobox zwroty">
+					<div class="nuta_infobox_top"></div>
+					<div class="nuta_infobox_body"><span style="font-size: 10pt;">Jako konsument możesz zwr&oacute;cić większość przedmiot&oacute;w kupionych od Firm na Allegro. Poinformuj sprzedającego o odstąpieniu od umowy (nie musisz podawać powodu odstąpienia). Masz na to 10 dni kalendarzowych od otrzymania towaru, chyba że sprzedający wyznacza na to dłuższy termin. </span>
+					</div>
+					<div class="nuta_infobox_body"><span style="font-size: 10pt;">Od daty oświadczenia o odstąpieniu od umowy masz kolejne 14 dni kalendarzowych na odesłanie towaru. Sprzedawca powinien wypłacić Ci pieniądze w ciągu 14 dni od chwili otrzymania oświadczenia o odstąpieniu od umowy.</span>
+					</div>
+					<div class="nuta_infobox_bottom"></div>
+				</div>
+
+			</div>
+			<div class="nuta_content">
+				<div class="nuta_content_top"></div>
+				<div class="nuta_content_body">
+
+					$content
+
+					<p align="center" style="text-align: center;">
+						<img src="$schema">
+					</p>
+
+
+					#if( $StringUtils.isNotEmpty($sizeA) )
+					<strong>
+						<p align="center" style="text-align: center;">
+							A-$sizeA
+						</p>
+					</strong>
+					#end
+					#if( $StringUtils.isNotEmpty($sizeB) )
+					<strong>
+						<p align="center" style="text-align: center;">
+							B-$sizeB
+						</p>
+					</strong>
+					#end
+					#if( $StringUtils.isNotEmpty($sizeC) )
+					<strong>
+						<p align="center" style="text-align: center;">
+							C-$sizeC
+						</p>
+					</strong>
+					#end
+					#if( $StringUtils.isNotEmpty($sizeD) )
+					<strong>
+						<p align="center" style="text-align: center;">
+							D-$sizeD
+						</p>
+					</strong>
+					#end
+					#if( $StringUtils.isNotEmpty($sizeE) )
+					<strong>
+						<p align="center" style="text-align: center;">
+							E-$sizeE
+						</p>
+					</strong>
+					#end
+					#if( $StringUtils.isNotEmpty($sizeF) )
+					<strong>
+						<p align="center" style="text-align: center;">
+							F-$sizeF
+						</p>
+					</strong>
+					#end
+
+					#foreach($imageLink in $imagesLinks)
+						<p class="MsoNoSpacing" style="text-indent: 35.4pt;">&nbsp;</p>
+						<p class="MsoNoSpacing" style="text-indent: 35.4pt;">&nbsp;</p>
+						<p class="MsoNoSpacing" style="text-indent: 35.4pt;">
+							<img src="$imageLink" style="display: block; margin-left: auto; margin-right: auto;"/>
+						</p>
+					#end
+
+				<hr/>
+
+				<div id="tabpanel"><center>
+				<table cellpadding="0" cellspacing="0" style="width:596px;">
+					<tr>
+						<td colspan="4" style="height: 19px;text-align:left;color: #000000;"><p style="padding-left: 4px;margin: 0;font-weight: bold;font-family: Arial;font-size:12px;padding-top:2px;color: #000000;">Zapraszamy na nasze inne aukcje: </p></td>
+					</tr>
+				</table>
+				<table cellpadding="0" cellspacing="0"><tr><td><div style="background-image: url(http://llog.pl/panele5/215724_border.gif);background-position:0px 0px;background-repeat: no-repeat;padding: 0 1px 1px 0;"><table cellpadding="0" cellspacing="0"><tr><td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka2"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/1/" target="_blank"  class="fotoin2157241" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_1.png" /></td></tr></table></td>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka2"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/2/" target="_blank"  class="fotoin2157242" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_2.png" /></td></tr></table></td>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka2"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/3/" target="_blank"  class="fotoin2157243" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_3.png" /></td></tr></table></td>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka3"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/4/" target="_blank"  class="fotoin2157244" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_4.png" /></td></tr></table></td></tr><tr>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka2"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/5/" target="_blank"  class="fotoin2157245" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_5.png" /></td></tr></table></td>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka2"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/6/" target="_blank"  class="fotoin2157246" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_6.png" /></td></tr></table></td>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka2"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/7/" target="_blank"  class="fotoin2157247" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_7.png" /></td></tr></table></td>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka3"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/8/" target="_blank"  class="fotoin2157248" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_8.png" /></td></tr></table></td></tr><tr>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka2"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/9/" target="_blank"  class="fotoin2157249" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_9.png" /></td></tr></table></td>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka2"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/10/" target="_blank"  class="fotoin21572410" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_10.png" /></td></tr></table></td>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka2"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/11/" target="_blank"  class="fotoin21572411" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_11.png" /></td></tr></table></td>
+					<td align="center" style="padding:1px 0 0 1px;"><table cellpadding="0" cellspacing="0" border="0" class="atabelka3"><tr><td style="position:relative;overflow:hidden;"><a href="http://llog.pl/go/215724/12/" target="_blank"  class="fotoin21572412" style="position:absolute;"><img src="http://llog.pl/panele5/215724_b.png" style="margin:0;background:none;" /></a><img src="http://llog.pl/panele5/215724_12.png" /></td></tr></table></td></tr></table></div><table cellpadding="0" cellspacing="0" style="background-image: url(http://llog.pl/panele5/215724_comment.png);background-position:0px 0px;background-repeat: no-repeat;padding:0;margin-left:0;width:100%;"><tr><td colspan="4" style="text-align:left;padding-top:0;color: #000000;"><a href="http://llog.pl/showuser/36804916/215724/" target="_blank"><img src="http://llog.pl/panele5/215724_kom.gif" alt="Komentarze" /></a><img src="http://llog.pl/views/215724/36804916/1/" alt="PaneleAllegro.pl" width="1" height="1" style="background:none;border:none;margin:0;padding:0" /></td></tr><tr><td colspan="4" style="height: 19px;text-align:left;padding-top:1px;color: #000000;"><table cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td><p class="astopka1"><a href="http://llog.pl/mypage/36804916/215724">Strona "o mnie"</a><a href="http://llog.pl/showuserauctions/36804916/215724">Wszystkie aukcje</a></p></td><td style="text-align: right;"><p class="astopka2">   <a href="http://www.paneleallegro.pl" title="galerie przedmiotow na allegro"><img src="http://llog.pl/panele5//foot_215724.png" style="background:none;border:none;margin:0;padding:0;display:inline;"  alt="darmowy panel allegro" /></a></p></td></tr></table></td></tr></table></td></tr></table></center></div>
+
+				</div>
+				<div class="nuta_content_bottom"></div>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+	</center>
+</div>
